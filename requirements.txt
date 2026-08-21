@@ -1,0 +1,4 @@
+pygame==2.5.2
+python-chess==1.999
+pandas==2.2.0
+pytest==8.3.0
