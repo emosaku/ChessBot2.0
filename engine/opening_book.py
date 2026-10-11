@@ -2,7 +2,7 @@ import chess.polyglot
 import random
 from pathlib import Path
 
-_DEFAULT_BOOK = Path(__file__).parent.parent / "ui" / "books" / "8moves_v3.bin"
+_DEFAULT_BOOK = Path(__file__).parent.parent / "assets" / "books" / "8moves_v3.bin"
 
 
 class OpeningBook:
