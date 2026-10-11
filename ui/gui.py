@@ -31,7 +31,7 @@ class ChessGameGUI:
         pygame.display.set_caption("Chess Engine")
         self.clock = pygame.time.Clock()
 
-        images_dir = Path(__file__).parent / 'images'
+        images_dir = Path(__file__).parent.parent / 'assets' / 'images'
         piece_images = PieceLoader.load(images_dir)
         small_images = PieceLoader.load_small(images_dir)
         bg_image = self._load_bg(images_dir / 'beach_bg.jpg')
